@@ -1,0 +1,22 @@
+.ProfileGrid {
+  /* background-color: black; */
+  display: grid;
+  margin: 3vh auto;
+  width: 90vw;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+@media (min-width: 1180px) {
+  .ProfileGrid {
+    display: "grid";
+    /* background-color: black; */
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.profileCard{
+    box-shadow: 8px 10px 10px 8px gray;
+    background-color: rgba(254, 242, 242, 0.402)!important;
+}

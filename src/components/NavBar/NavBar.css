@@ -1,0 +1,15 @@
+.NavLink{
+    text-decoration: none;
+    color: rgb(181, 181, 181);
+    margin: 0px 10px;
+}
+.active{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 10px;
+
+    
+}
+.NavLink:hover{
+    color: rgb(210, 207, 207);
+}
